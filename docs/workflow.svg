@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 260" width="1100" height="260" role="img" aria-labelledby="title desc">
+  <title id="title">Legal and policy research workflow</title>
+  <desc id="desc">Discover sources, collect and verify documents, audit the catalogue, retrieve missing originals, and update the same library.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0l8 4-8 4z" fill="#111"/>
+    </marker>
+  </defs>
+  <rect width="1100" height="260" fill="#fff"/>
+  <g fill="none" stroke="#111" stroke-width="2">
+    <rect x="22" y="40" width="234" height="90" rx="5"/>
+    <rect x="296" y="40" width="234" height="90" rx="5"/>
+    <rect x="570" y="40" width="234" height="90" rx="5"/>
+    <rect x="844" y="40" width="234" height="90" rx="5"/>
+    <path d="M262 85h27" marker-end="url(#arrow)"/>
+    <path d="M536 85h27" marker-end="url(#arrow)"/>
+    <path d="M810 85h27" marker-end="url(#arrow)"/>
+    <path d="M961 136v63H413v-62" marker-end="url(#arrow)"/>
+  </g>
+  <g fill="#111" font-family="system-ui, sans-serif" text-anchor="middle">
+    <g font-size="20" font-weight="700">
+      <text x="139" y="80">Discovery</text>
+      <text x="413" y="80">Collection</text>
+      <text x="687" y="80">Audit</text>
+      <text x="961" y="80">Full-text Retrieval</text>
+    </g>
+    <g font-size="16">
+      <text x="139" y="105">Map sources and search</text>
+      <text x="413" y="105">Verify and catalogue</text>
+      <text x="687" y="105">Check files and gaps</text>
+      <text x="961" y="105">Retrieve missing originals</text>
+      <text x="687" y="228">Update the same library</text>
+    </g>
+  </g>
+</svg>

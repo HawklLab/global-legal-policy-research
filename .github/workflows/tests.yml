@@ -12,8 +12,18 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python: ['3.9', '3.12']
-    runs-on: ubuntu-22.04
+        include:
+          - os: ubuntu-22.04
+            python: '3.9'
+          - os: ubuntu-22.04
+            python: '3.12'
+          - os: macos-latest
+            python: '3.12'
+          - os: windows-latest
+            python: '3.12'
+    runs-on: ${{ matrix.os }}
+    env:
+      PYTHONUTF8: '1'
     timeout-minutes: 10
     steps:
       - name: Check out repository

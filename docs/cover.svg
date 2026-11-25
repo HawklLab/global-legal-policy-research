@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 210" width="1100" height="210" role="img" aria-labelledby="title">
+  <title id="title">Global Legal and Policy Research Skill, by HawkLab</title>
+  <rect width="1100" height="210" fill="#fff"/>
+  <rect x="1" y="1" width="1098" height="208" fill="none" stroke="#111" stroke-width="2"/>
+  <path d="M52 43h113l25 25v99H52z M165 43v25h25 M74 94h94 M74 116h94 M74 138h59"
+        fill="none" stroke="#111" stroke-width="3"/>
+  <g fill="#111" font-family="system-ui, sans-serif">
+    <text x="227" y="100" font-size="37" font-weight="700">Global Legal &amp; Policy Research Skill</text>
+    <text x="228" y="145" font-size="22">HawkLab</text>
+  </g>
+</svg>
