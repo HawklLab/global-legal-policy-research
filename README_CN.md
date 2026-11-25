@@ -2,7 +2,7 @@
 
 跨国法律与政策资料研究
 
-[English](README.md) · [HawkLab](https://github.com/HawkLab) · [发布版本](https://github.com/HawkLab/global-legal-policy-research/releases)
+[English](README.md) · [HawkLab](https://github.com/HawklLab) · [发布版本](https://github.com/HawklLab/global-legal-policy-research/releases)
 
 这是 HawkLab 独立开发的 Codex Skill，可发现官方法律来源、开展多语言检索、追踪立法与倡导过程、获取和核验原文，并生成可追溯的本地资料目录。它不代表任何研究机构或国际组织。
 
@@ -19,11 +19,11 @@
 
 ## 安装与使用
 
-需要 Python 3.9+ 和 `requirements.txt` 中的 openpyxl。PDF 自动检查可选安装 Poppler。安装前选择空的 Skill 目录，已有同名 Skill 时请使用独立测试目录或自定义安装名称。详见 [English README 的本地与 GitHub 安装命令](README.md#installation)。可从 [GitHub 仓库](https://github.com/HawkLab/global-legal-policy-research)安装固定版本。
+需要 Python 3.9+ 和 `requirements.txt` 中的 openpyxl。PDF 自动检查可选安装 Poppler。安装前选择空的 Skill 目录，已有同名 Skill 时请使用独立测试目录或自定义安装名称。详见 [English README 的本地与 GitHub 安装命令](README.md#installation)。可从 [GitHub 仓库](https://github.com/HawklLab/global-legal-policy-research)安装固定版本。
 
 ```sh
 python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
-  --repo HawkLab/global-legal-policy-research --path . --name global-legal-policy-research --ref v0.1.0 --method download
+  --repo HawklLab/global-legal-policy-research --path . --name global-legal-policy-research --ref v0.1.0 --method download
 ```
 
 
