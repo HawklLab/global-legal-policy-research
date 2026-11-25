@@ -1,8 +1,8 @@
-# Global Legal & Policy Research
+# Global Legal & Policy Research Skill
 
-[简体中文](README_CN.md)
+[简体中文](README_CN.md) · [HawkLab](https://github.com/HawkLab) · [Releases](https://github.com/HawkLab/global-legal-policy-research/releases)
 
-A Codex skill for building traceable research libraries across jurisdictions. Use it to map official sources, search in relevant languages, trace legislative history and advocacy, retrieve originals, audit evidence, and publish a local catalogue. This independently developed tool does not represent any institution or international organization.
+A Codex skill for building traceable research libraries across jurisdictions. Use it to map official sources, search in relevant languages, trace legislative history and advocacy, retrieve originals, audit evidence, and publish a local catalogue. Developed independently by HawkLab. The project does not represent any institution or international organization.
 
 ## Workflow and modes
 
@@ -28,11 +28,11 @@ mkdir "$skill_dir" && git archive HEAD | tar -x -C "$skill_dir"
 python3 -m pip install -r requirements.txt
 ```
 
-A GitHub install command is prepared for use after publication. Replace `OWNER` with the repository owner, and use an unused destination or name when keeping another installation.
+Install the tagged release from the [GitHub repository](https://github.com/HawkLab/global-legal-policy-research). Use an unused destination or name when keeping another installation.
 
 ```sh
 python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
-  --repo OWNER/global-legal-policy-research --path . --name global-legal-policy-research --method download
+  --repo HawkLab/global-legal-policy-research --path . --name global-legal-policy-research --ref v0.1.0 --method download
 ```
 
 Install the Python requirements from the installed folder, then restart Codex or begin a session that discovers the installed skill. The live GitHub command requires a reachable published repository.

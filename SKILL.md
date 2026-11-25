@@ -3,7 +3,7 @@ name: global-legal-policy-research
 description: Discover, verify and organize legal and policy sources across jurisdictions. Use for official source mapping, multilingual documentary research, legislative history, evidence audits and retrieval of missing full texts.
 ---
 
-# Global legal and policy research
+# Global Legal & Policy Research Skill
 
 Support English and Chinese requests. Use the user's conversation language for the response and default presentation, unless they select another output language. Accept jurisdiction, research question, scope, publication date range, search cutoff, optional research profile and mode. Record the actual retrieval language in `search_languages`. Default to English plus the relevant official research languages, verified for the jurisdiction and document coverage. Store `output_language` as `en`, `zh-CN` or `bilingual`, independently of query language. Store both the original metadata and any working title translations. Set `preserve_original_title` (default true) and `translate_title` (default true if translations are supplied). Use `user_language` as the fallback for output in non-interactive runs. Match the final response to the output language, or provide both versions for bilingual output.
 
