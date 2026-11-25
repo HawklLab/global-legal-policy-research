@@ -1,0 +1,57 @@
+{
+  "search_event": {
+    "kind": "search",
+    "country": "",
+    "at": "",
+    "layer": null,
+    "categories": [],
+    "database": "",
+    "query": "",
+    "language": "",
+    "scope": "",
+    "state": "planned",
+    "result_count": null,
+    "count_basis": "",
+    "evidence": ""
+  },
+  "source_event": {
+    "kind": "source",
+    "country": "",
+    "at": "",
+    "source_id": "",
+    "name": "",
+    "operator": "",
+    "url": "",
+    "role": "",
+    "coverage": "",
+    "languages": [],
+    "free_access": "unknown",
+    "full_text_search": "unknown",
+    "formats": [],
+    "status": "pending",
+    "ownership_url": "",
+    "function_url": ""
+  },
+  "verification-evidence.csv": [
+    "id",
+    "source_status",
+    "metadata_evidence_url",
+    "body_status",
+    "body_locator",
+    "reviewed_sha256",
+    "download_status"
+  ],
+  "legal-versions.csv": [
+    "id",
+    "law_id",
+    "version_kind",
+    "effective_on",
+    "relation",
+    "related_id",
+    "evidence_url"
+  ],
+  "coverage-gaps.csv": [
+    "category",
+    "gap"
+  ]
+}

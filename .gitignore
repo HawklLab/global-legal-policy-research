@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.DS_Store
+*.sqlite
+*.sqlite-*
+*.db
+*.xlsx
+*.pdf
+*.zip
+downloads/
+outputs/
+runs/
+work/
+profiles/local/

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Global Legal & Policy Research"
+  short_description: "Collect, verify and organize cross-jurisdiction policy sources."
+  default_prompt: "Use $global-legal-policy-research to build or audit a research library."
